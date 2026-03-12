@@ -1,0 +1,48 @@
+
+body{
+    background: linear-gradient(to right, #e3f2fd, #276a99);
+}
+
+.details{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #e3f2fd, #276a99);
+    text-align: center;
+}
+
+section{
+    padding: 80px 0;
+}
+
+.project-card{
+    transition: 0.3s;
+    background: #0F2854;
+    color: white;
+}
+.project-card:hover{
+    transform: translateY(-10px);
+}
+
+footer{
+    background: #212529;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.resume-btn{
+    background-color: rgb(10, 63, 83);
+    color: white;
+}
+
+.resume-btn:hover{
+    background-color: darkkhaki;
+}
+
+footer img{
+    height: 30px;
+    width: 35px;
+}
